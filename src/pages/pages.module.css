@@ -1,0 +1,350 @@
+.likes_main {
+    width: 100%;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.nav_list {
+    display: flex;
+    width: 100%;
+    height: 46px;
+    align-items: center;
+}
+
+.likes_collection {
+    width: 1240px;
+    height: 700px;
+}
+
+.likes_collection_functions {
+    width: 100%;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px;
+}
+
+.likes_collection_list {
+    width: 1208px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.likes_collection_real_functions {
+    display: flex;
+    align-items: center;
+}
+
+.likes_collection_real_functions_view {
+    display: flex;
+    width: 96px;
+    height: 32px;
+    justify-content: space-between;
+    margin-left: 8px;
+    cursor: pointer;
+}
+
+.likes_collection_real_functions_view_badges {
+    width: 40px;
+    height: 32px;
+    background-color: #242729;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.likes_collection_real_functions_view_badges:hover {
+    color: #333;
+}
+
+.likes_collection_real_functions_view_list {
+    width: 40px;
+    height: 32px;
+    background-color: #242729;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+}
+
+.likes_collection_real_functions_filter {
+    width: 306px;
+    height: 34px;
+    border-radius: 2px;
+    border: none;
+    padding: 8px 16px;
+    background-color: #242729;
+    color: #fff;
+    margin-left: 15px;
+    font-family: "proximanova_regular";
+    font-size: 15px;
+}
+
+.likes_collection_real_functions_filter:focus {
+  outline: 1px solid #3b3f41;
+}
+
+.nav_link {
+    font-size: 24px;
+    color: #a8a095;
+    margin-right: 30px;
+}
+
+.track_id_main_info_block {
+    width: 1240px;
+    height: 384px;
+    background-color: #545a5e;
+    padding: 34px;
+    position: relative;
+}
+
+.track_id_main_info_artist_name_play_btn {
+    height: 76px;
+    width: 600px;
+    display: flex;
+    
+}
+
+.track_id_main_info_play_btn {
+    width: 64px;
+    height: 64px;
+    border-radius: 100%;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.track_id_main_info_artist_track_name {
+    margin-left: 15px;
+}
+
+.track_id_main_info_track_name {
+    background-color: #000;
+    position: absolute;
+    padding: 5px;
+        display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.track_id_main_info_artist {
+    background-color: #000;
+    position: absolute;
+    margin-top: 47px;
+    font-size: 20px;
+    padding: 2px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.track_id_main_info_track_name_text {
+    font-size: 30px;
+    font-weight: 100;
+    font-family: "proximanova_bold";
+}
+
+.track_id_main_info_artist_text {
+    font-size: 17px;
+    font-weight: 100;
+    font-family: "proximanova_bold";
+    color: #a8a095;
+}
+
+.track_id_main_info_image {
+    width: 320px;
+    height: 320px;
+    position: absolute;
+    top: 34px;
+    right: 34px;
+    border-radius: 3%;
+}
+
+.track_track_wave {
+    width: 816px;
+    height: 100px;
+    position: absolute;
+    bottom: 34px;
+    background-color: #9bbdbd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+    opacity: 0.5;
+}
+
+.track_id_all_info_block {
+    width: 100%;
+    height: 700px;
+}
+
+.track_info_option_and_comments {
+    width: 900px;
+    height: 500px;
+    position: relative;
+}
+
+.track_info_option_and_mini_info {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.track_info_option {
+    display: flex;
+    align-items: center;
+}
+
+.track_info_option_item {
+    width: 40px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    margin-right: 12px;
+    background-color: #242729;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.track_info_option_item:hover {
+    opacity: 0.7;
+}
+
+.track_info_mini_info {
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.track_mini_info_item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 16px;
+    margin-left: 10px;
+    font-size: 14px;
+    font-family: "proximanova_regular";
+    color: #a8a095;
+}
+
+.track_comments_and_release_date_and_artist_mini_profile {
+    width: 100%;
+    height: 500px;
+}
+
+.track__release_date {
+    width: 700px;
+    height: 110px;
+    position: absolute;
+    right: 0;
+    margin-top: 30px;
+}
+.track__release_date p  {
+    color: #a8a095;
+    font-size: 14px;
+}
+
+.track_comments {
+    width: 700px;
+    height: 200px;
+    position: absolute;
+    right: 0;
+    margin-top: 200px;
+}
+
+.track_comment {
+    width: 686px;
+    height: 100px;
+    display: flex;
+}
+
+.track_comment_author_image {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+
+.track_comment_author_body {
+    margin-left: 10px;
+}
+
+.track_comment_body p {
+    font-family: "proximanova_regular";
+    font-weight: 100;
+    margin-top: 8px;
+}
+
+.track_mini_profile {
+    position: absolute;
+}
+
+.track_mini_profile img {
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+}
+
+.track_mini_profile h4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 100;
+}
+
+
+.track_mini_profile div {
+    width: 120px;
+    height: 32px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    font-weight: 100;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.track_mini_profile div:hover {
+    opacity: 0.7;
+}
+
+.track_mini_profile div p {
+    color: #a8a095;
+    font-size: 13px;
+    font-family: "proximanova_regular";
+    font-weight: 100;
+}
+
+.track_mini_profile div p i {
+    color: #a8a095;
+    margin-right: 4px;
+}
+
+.qwe {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}

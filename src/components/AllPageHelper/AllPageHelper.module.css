@@ -1,0 +1,9 @@
+.AllPageHelper {
+    width: 100%;
+    position: absolute;
+    background-color: #000;
+    height: 90vh;
+    left: 0;
+    top: 46px;
+    opacity: 0.3;
+}
