@@ -1,11 +1,16 @@
-import React from 'react';  
+import React, { useState } from 'react';  
 import cl from './pages.module.css';
 import Track from '../components/Track/Track';
 import { useTracks } from '../context/TracksContext';
-import { ITrack } from '../types/TrackType';
 
 const Likes = () => {
   const { tracks, likeUnlike } = useTracks();
+  const [filterTracksValue, setFilterTracksValue] = useState("")
+
+  const filteredTracks = tracks.filter(t =>
+    t.title.toLowerCase().includes(filterTracksValue.toLowerCase()) ||
+    t.artists.some(a => a.toLowerCase().includes(filterTracksValue.toLowerCase()))
+  );
 
   return (
     <div className={cl.likes_main}>
@@ -35,6 +40,8 @@ const Likes = () => {
               </div>
             </div>
             <input
+              onChange={event => setFilterTracksValue(event.target.value)}
+              value={filterTracksValue}
               className={cl.likes_collection_real_functions_filter}
               type="text"
               placeholder="Filter"
@@ -43,15 +50,21 @@ const Likes = () => {
         </div>
 
         <ul className={cl.likes_collection_list}>
-          {tracks
+          {filteredTracks.filter(track => track.like).length ? 
+          filteredTracks
           .filter(track => track.like)
           .map(track => (
             <Track
               key={track.id}
               track={track}
-              onLikeToggle={likeUnlike} // ← ОБЯЗАТЕЛЬНО ПЕРЕДАЙ!
+              onLikeToggle={likeUnlike}
             />
-          ))}
+          ))
+          :
+          <h4 >Your library empty</h4>
+          }
+
+
         </ul>
       </div>
     </div>

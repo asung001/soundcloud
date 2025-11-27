@@ -7,8 +7,8 @@ export default [
     duration: "2:15",
     genre: "Experimental Hip Hop",
     comments: [
-      { author: "waltz", text: "Трек как удар в лицо, идеально для поздней ночи." },
-      { author: "yada", text: "Коллаб мечты, SHTRIHCOD добавил нужную тьму." }
+      { author: "waltz", text: "some text" },
+      { author: "yada", text: "some text1" }
     ],
     play_count: 15000,
     likes_count: 2100,
@@ -26,8 +26,8 @@ export default [
     duration: "2:45",
     genre: "Trap Metal",
     comments: [
-      { author: "neon", text: "Абсолютный хаос, но в хорошем смысле." },
-      { author: "ghost", text: "dekma на пике, текст режет как нож." }
+      { author: "waltz", text: "some text" },
+      { author: "yada", text: "some text1" }
     ],
     play_count: 61200,
     likes_count: 8900,
@@ -45,8 +45,8 @@ export default [
     duration: "3:10",
     genre: "Experimental Hip Hop",
     comments: [
-      { author: "shadow", text: "ROKERVEKA + dekma = огонь, ритм гипнотизирует." },
-      { author: "vibe", text: "Один из лучших коллабов, жду больше." }
+      { author: "waltz", text: "some text" },
+      { author: "yada", text: "some text1" }
     ],
     play_count: 48600,
     likes_count: 7200,
@@ -64,8 +64,8 @@ export default [
     duration: "2:30",
     genre: "Industrial Hip Hop",
     comments: [
-      { author: "echo", text: "Атмосфера как из фильма ужасов, топ." },
-      { author: "raven", text: "SHTRIHCOD сделал бит идеальным для декмы." }
+      { author: "waltz", text: "some text" },
+      { author: "yada", text: "some text1" }
     ],
     play_count: 46760,
     likes_count: 6800,
@@ -83,8 +83,8 @@ export default [
     duration: "2:40",
     genre: "Trap Metal",
     comments: [
-      { author: "fade", text: "Трек для тех, кто в депрессе, но круто." },
-      { author: "nyx", text: "Минимализм в битах — гениально." }
+      { author: "waltz", text: "some text" },
+      { author: "yada", text: "some text1" }
     ],
     play_count: 34820,
     likes_count: 5100,
@@ -102,8 +102,8 @@ export default [
     duration: "3:20",
     genre: "Experimental Hip Hop",
     comments: [
-      { author: "luna", text: "Трио разрывает, каждый добавил свой вкус." },
-      { author: "zephyr", text: "WARYKID на бите — чистый огонь." }
+      { author: "waltz", text: "some text" },
+      { author: "yada", text: "some text1" }
     ],
     play_count: 22400,
     likes_count: 3400,
@@ -121,8 +121,8 @@ export default [
     duration: "2:55",
     genre: "Industrial Hip Hop",
     comments: [
-      { author: "kira", text: "Трек как из аниме, но тёмное." },
-      { author: "bolt", text: "dekma экспериментирует, и это круто." }
+      { author: "waltz", text: "some text" },
+      { author: "yada", text: "some text1" }
     ],
     play_count: 38000,
     likes_count: 5600,
@@ -140,8 +140,8 @@ export default [
     duration: "3:05",
     genre: "Trap Metal",
     comments: [
-      { author: "storm", text: "Коллаб всех — хаос и гениальность." },
-      { author: "mist", text: "SHTRIHCOD и dekma — идеальная пара." }
+      { author: "waltz", text: "some text" },
+      { author: "yada", text: "some text1" }
     ],
     play_count: 17400,
     likes_count: 2600,
@@ -159,8 +159,8 @@ export default [
     duration: "2:20",
     genre: "Horrorcore",
     comments: [
-      { author: "blade", text: "Текст как маньяк, бит как нож." },
-      { author: "void", text: "Один из самых жёстких треков дуэта." }
+      { author: "waltz", text: "some text" },
+      { author: "yada", text: "some text1" }
     ],
     play_count: 12500,
     likes_count: 1900,
@@ -178,8 +178,8 @@ export default [
     duration: "2:50",
     genre: "Experimental Hip Hop",
     comments: [
-      { author: "rust", text: "Металл в рэпе, но не клише." },
-      { author: "forge", text: "SHTRIHCOD добавил индустриал — топ." }
+      { author: "waltz", text: "some text" },
+      { author: "yada", text: "some text1" }
     ],
     play_count: 11900,
     likes_count: 1800,
@@ -197,8 +197,8 @@ export default [
     duration: "2:33",
     genre: "Trap Metal",
     comments: [
-      { author: "reaper", text: "Классика некротрапа, до сих пор качает." },
-      { author: "skull", text: "Бит как могила, текст как приговор." }
+      { author: "waltz", text: "some text" },
+      { author: "yada", text: "some text1" }
     ],
     play_count: 55200,
     likes_count: 8100,
@@ -216,8 +216,8 @@ export default [
     duration: "3:12",
     genre: "Industrial Hip Hop",
     comments: [
-      { author: "dusk", text: "Трек для ночи, без света." },
-      { author: "noir", text: "SHTRIHCOD поднял планку индустриала." }
+      { author: "waltz", text: "some text" },
+      { author: "yada", text: "some text1" }
     ],
     play_count: 29800,
     likes_count: 4400,
@@ -235,8 +235,8 @@ export default [
     duration: "2:28",
     genre: "Horrorcore",
     comments: [
-      { author: "crimson", text: "Текст — чистая кровь, бит — удар." },
-      { author: "scar", text: "dekma в своей стихии." }
+      { author: "waltz", text: "some text" },
+      { author: "yada", text: "some text1" }
     ],
     play_count: 33100,
     likes_count: 4900,
@@ -254,8 +254,8 @@ export default [
     duration: "3:45",
     genre: "Experimental Hip Hop",
     comments: [
-      { author: "doom", text: "Финал, который хочется переживать снова." },
-      { author: "end", text: "UMSY добавил нужную меланхолию." }
+      { author: "waltz", text: "some text" },
+      { author: "yada", text: "some text1" }
     ],
     play_count: 26200,
     likes_count: 3900,
@@ -273,8 +273,8 @@ export default [
     duration: "2:57",
     genre: "Trap Metal",
     comments: [
-      { author: "voidwalker", text: "Трек про внутренний ад — честно." },
-      { author: "abyss", text: "dekma копает глубже." }
+      { author: "waltz", text: "some text" },
+      { author: "yada", text: "some text1" }
     ],
     play_count: 18900,
     likes_count: 2800,
@@ -292,8 +292,8 @@ export default [
     duration: "2:41",
     genre: "Industrial Hip Hop",
     comments: [
-      { author: "mask", text: "Без лица, но с душой." },
-      { author: "faceless", text: "diklor добавил нужный хаос." }
+      { author: "waltz", text: "some text" },
+      { author: "yada", text: "some text1" }
     ],
     play_count: 21000,
     likes_count: 3100,
@@ -311,8 +311,8 @@ export default [
     duration: "3:18",
     genre: "Experimental Hip Hop",
     comments: [
-      { author: "ice", text: "Флоу как лёд, бит как ветер." },
-      { author: "frost", text: "WARYKID — мастер атмосферы." }
+      { author: "waltz", text: "some text" },
+      { author: "yada", text: "some text1" }
     ],
     play_count: 17800,
     likes_count: 2600,
@@ -330,8 +330,8 @@ export default [
     duration: "2:22",
     genre: "Trap Metal",
     comments: [
-      { author: "rupture", text: "Разрыв шаблона, разрыв ушей." },
-      { author: "break", text: "SHTRIHCOD на максимуме." }
+      { author: "waltz", text: "some text" },
+      { author: "yada", text: "some text1" }
     ],
     play_count: 15600,
     likes_count: 2300,
@@ -349,8 +349,8 @@ export default [
     duration: "3:01",
     genre: "Horrorcore",
     comments: [
-      { author: "howl", text: "Зов из тьмы, ответ — в голове." },
-      { author: "night", text: "dekma создал ночной кошмар." }
+      { author: "waltz", text: "some text" },
+      { author: "yada", text: "some text1" }
     ],
     play_count: 14200,
     likes_count: 2100,
@@ -368,8 +368,8 @@ export default [
     duration: "3:35",
     genre: "Experimental Hip Hop",
     comments: [
-      { author: "breath", text: "Последний, но запоминающийся." },
-      { author: "final", text: "Трио на финале — шедевр." }
+      { author: "waltz", text: "some text" },
+      { author: "yada", text: "some text1" }
     ],
     play_count: 19800,
     likes_count: 2900,

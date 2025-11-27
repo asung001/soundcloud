@@ -36,7 +36,13 @@ const Header = ({ currentTrack }: HeaderProps) => {
         <Link to={"home"}><div className={cl.header_navbar}>Home</div></Link>
         <Link to={"feed"}><div className={cl.header_navbar}>Feed</div></Link>
         <Link to={"likes"}><div className={cl.header_navbar}>Library</div></Link>
-        <input onClick={activeTrackSearch} className={cl.seacrhTrackInput}  value={search} onChange={e => setSearch(e.target.value)} placeholder="Search" />
+        <input 
+          onClick={activeTrackSearch} 
+          className={cl.seacrhTrackInput}  
+          value={search} 
+          onChange={e => setSearch(e.target.value)} 
+          placeholder="Search" 
+        />
         <Link to={"upgrade"}><div className={cl.header_navbar}>Upgrade now</div></Link>
         <Link to={"for_artist"}><div className={cl.header_navbar}>For Artists</div></Link>
         <Link to={"upload"}><div className={cl.header_navbar}>Upload</div></Link>
